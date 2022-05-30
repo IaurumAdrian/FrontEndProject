@@ -139,3 +139,48 @@ p {
   font-size: 1.1em;
   line-height: 1.5;
 }
+/* Styles for 404 page */
+.error_messages{
+  display :flex;
+  align-items:center;
+  justify-content: center;
+  margin:1em; 
+}
+.a404_messages{
+  display :flex;
+  align-items:center;
+  justify-content: center;
+  margin: 1em;
+}
+.error_text{
+  margin:1em;
+
+}
+.error_text_individual{
+  margin:2em;
+}
+.error_search_bar{
+  display:flex;
+  position: relative;
+  margin:1em;
+}
+/* ex search bar content */
+.box{
+  display:flex;
+  position: absolute;
+  margin:0.5em 0;
+
+}
+.search_text{
+  position:relative;
+  align-items:center;
+  justify-content: center;
+  margin: 0.5em;
+  /* align-items: flex-start; */
+}
+.lupa{
+  position: relative;
+  align-items:flex-end;
+  justify-content: end;
+  margin:1em;
+}
