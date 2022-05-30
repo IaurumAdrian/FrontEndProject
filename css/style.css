@@ -1,10 +1,123 @@
+.header_item {
+  display:inline;
+ margin: 0em ;
+}
+.header_item2 {
+  display:block;
+ margin: 1em;
+}
 
-body {
+.retry{
+  display:inline;
+}
+
+#header {
+  display: flex;
+}
+
+.small_img{
+  /* display:inline; */
+  float:left;
+  margin:0 1rem 1rem 0;
+}
+.smaller_img{
+  display:block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* .services_list {
+  display: inline;
+  position: relative;
+  left:200px;
+  bottom:336px;
+} 
+.services_list2 {
+  display:inline;
+  position: relative;
+  left:400px;
+  bottom:672px;
+} 
+.services_list3 {
+  display: inline;
+  position: relative;
+  left:600px;
+  bottom:1008px;
+}  */
+.lists{
+  display:flex;
+}
+.header_icon{
+  float:right;
+  position:absolute;
+}
+.header_Text{
+  /* Style for "company, library, contact us" */
+font-size: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:200px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: fixed;
+  float:left;
+  left:0px;
+  width:100%;
+  background-color: #f1f1f1;
+  min-width: 100vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;
+max-width: 10em;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/*body {
   color: #fff;
   font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
   box-sizing: border-box;
   background-color: #3659a2;
-}
+}*/
+
+/* hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} */
 
 main {
   width: 90%;
