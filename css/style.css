@@ -1,10 +1,12 @@
 .header_item {
   display:inline;
- margin: 0em ;
+ margin: 0.5em ;
+ padding: 1em;
 }
 .header_item2 {
   display:block;
- margin: 1em;
+ margin: 0.5em;
+ padding: 1em;
 }
 
 .retry{
@@ -18,7 +20,7 @@
 .small_img{
   /* display:inline; */
   float:left;
-  margin:0 1rem 1rem 0;
+  margin:0 1rem 0.5rem 0.5rem;
 }
 .smaller_img{
   display:block;
@@ -49,6 +51,8 @@
 .header_icon{
   float:right;
   position:absolute;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .header_Text{
   /* Style for "company, library, contact us" */
@@ -94,14 +98,29 @@ font-size: 20px;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;
+.dropdown-content a:hover 
+{background-color: #ddd;
 max-width: 10em;}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content 
+{display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn 
+{background-color: #3e8e41;}
+
+.services_img{
+  display :flex;
+  align-items:flex-end;
+  justify-content: flex-end;
+  margin:1em; 
+}
+
+trouble_icons{
+  padding: 1em 2em ;
+}
 
 /*body {
   color: #fff;
@@ -150,7 +169,7 @@ p {
   display :flex;
   align-items:center;
   justify-content: center;
-  margin: 1em;
+  margin: 8em ;
 }
 .error_text{
   margin:1em;
@@ -181,6 +200,17 @@ p {
 .lupa{
   position: relative;
   align-items:flex-end;
-  justify-content: end;
+  justify-content:flex-end;
   margin:1em;
+  right:-29em;
+}
+footer{
+
+  max-width: 100vw;
+  /* background-image :image-src("D:/GitProjects/project1/FrontEndProject/footer.png"); */
+}
+.footer_items{
+  max-width: 100%;
+  bottom: 1em;
+  
 }
